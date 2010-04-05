@@ -409,16 +409,16 @@
 	};
 	1A0C6E540F5D8D0C00D057F8 /* CloudMadeView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1552, 8216}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1552, 8151}}";
 			sepNavSelRange = "{2395, 0}";
-			sepNavVisRange = "{0, 2485}";
+			sepNavVisRange = "{0, 1624}";
 		};
 	};
 	1A0C6E550F5D8D0C00D057F8 /* CloudMadeView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1468, 2691}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1468, 2678}}";
 			sepNavSelRange = "{1574, 0}";
-			sepNavVisRange = "{3699, 2109}";
+			sepNavVisRange = "{3699, 1461}";
 		};
 	};
 	1A0C6E560F5D8D0C00D057F8 /* CloudMadeMapView.m */ = {
@@ -464,9 +464,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1002, 5376}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 5694}}";
 			sepNavSelRange = "{1489, 10}";
-			sepNavVisRange = "{1308, 385}";
+			sepNavVisRange = "{1016, 1061}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -566,15 +566,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 292172418;
-			PBXWorkspaceStateSaveDate = 292172418;
+			PBXPerProjectTemplateStateSaveDate = 292173541;
+			PBXWorkspaceStateSaveDate = 292173541;
 		};
 		perUserProjectItems = {
 			011261CC1046F5A000538159 = 011261CC1046F5A000538159 /* PBXTextBookmark */;
 			011261F610471BE400538159 = 011261F610471BE400538159 /* PBXTextBookmark */;
 			0112622710472BF000538159 = 0112622710472BF000538159 /* PBXTextBookmark */;
 			0132B4D4101F235D00B76B50 = 0132B4D4101F235D00B76B50 /* PBXTextBookmark */;
-			0150F25A116A328B00B927A2 /* PBXTextBookmark */ = 0150F25A116A328B00B927A2 /* PBXTextBookmark */;
+			0150F25A116A328B00B927A2 = 0150F25A116A328B00B927A2 /* PBXTextBookmark */;
 			015890D2116A2CCE001F7E7E = 015890D2116A2CCE001F7E7E /* PBXTextBookmark */;
 			015890D3116A2CCE001F7E7E = 015890D3116A2CCE001F7E7E /* PBXBookmark */;
 			015890D4116A2CCE001F7E7E = 015890D4116A2CCE001F7E7E /* PBXBookmark */;
