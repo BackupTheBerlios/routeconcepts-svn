@@ -3,7 +3,7 @@
 //  routeConcepts
 //
 //  Created by Fabian Girolstein on 24.07.09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009-2010 __MyCompanyName__. All rights reserved.
 //
 
 #import "CloudMadeView.h"
@@ -62,7 +62,7 @@ struct MapSettings CreateMapSettings(const char* baseUrl,const char* apikey,int 
 	
 	// "Term of Use" - Label
 	termOfUse = [[UILabel alloc] initWithFrame:CGRectMake(0, 420, 320, 20)];
-	termOfUse.text = @"Map data CCBYSA 2009 OpenStreetMap.org contributors";
+	termOfUse.text = @"Map data CCBYSA 2010 OpenStreetMap.org contributors";
 	termOfUse.backgroundColor = [UIColor clearColor];
 	termOfUse.minimumFontSize=0.05;
 	termOfUse.textAlignment = UIBaselineAdjustmentAlignCenters| UITextAlignmentCenter;
