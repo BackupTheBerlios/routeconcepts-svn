@@ -99,7 +99,7 @@ NSString* const mapStyleChangedNotification = @"mapstyle";
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"checkCell"] autorelease];
 		cell.accessoryType = UITableViewCellAccessoryNone;
 	}
-	cell.text = [myMapStyleName objectAtIndex:[indexPath row]];
+	cell.textLabel.text = [myMapStyleName objectAtIndex:[indexPath row]];
 	
 	return cell;
 }

@@ -26,7 +26,7 @@
 	
 	// Add address label
 	addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 10.0, 300.0, 20.0)];
-	addressLabel.text = @"Adresse";
+	addressLabel.text = @"Address";
 	addressLabel.adjustsFontSizeToFitWidth = YES;
 	addressLabel.textColor = [UIColor whiteColor];
 	addressLabel.backgroundColor = [UIColor clearColor];
@@ -35,7 +35,7 @@
 	
 	// Add coordinates label
 	coordinatesLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 40.0, 300.0, 20.0)];
-	coordinatesLabel.text = @"Koordinaten";
+	coordinatesLabel.text = @"Coordinates";
 	coordinatesLabel.adjustsFontSizeToFitWidth = YES;
 	coordinatesLabel.textColor = [UIColor whiteColor];
 	coordinatesLabel.backgroundColor = [UIColor clearColor];

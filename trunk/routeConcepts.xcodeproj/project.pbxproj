@@ -16,6 +16,7 @@
 		01D7355110355267000D9C1C /* MarkerInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D7355010355267000D9C1C /* MarkerInfoView.m */; };
 		01DFEC6B1018EDA700459C6B /* Pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 01DFEC6A1018EDA700459C6B /* Pin.png */; };
 		01DFED271018F29800459C6B /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFED261018F29800459C6B /* Location.m */; };
+		01F10F96116A44EA000D025C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F10F95116A44EA000D025C /* icon.png */; };
 		1A0C6E2F0F5D894800D057F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C6E2E0F5D894800D057F8 /* CoreLocation.framework */; };
 		1A0C6E580F5D8D0C00D057F8 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C6E4F0F5D8D0C00D057F8 /* Utils.m */; };
 		1A0C6E590F5D8D0C00D057F8 /* PlaceMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C6E510F5D8D0C00D057F8 /* PlaceMarker.m */; };
@@ -46,6 +47,7 @@
 		01DFEC6A1018EDA700459C6B /* Pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pin.png; path = Pictures/Pin.png; sourceTree = "<group>"; };
 		01DFED251018F29800459C6B /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		01DFED261018F29800459C6B /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		01F10F95116A44EA000D025C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1A0C6E2E0F5D894800D057F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1A0C6E4F0F5D8D0C00D057F8 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Utils/Utils.m; sourceTree = "<group>"; };
 		1A0C6E500F5D8D0C00D057F8 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Utils/Utils.h; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		01DFEC691018ED5F00459C6B /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				01F10F95116A44EA000D025C /* icon.png */,
 				014F30971036B55000A6FDC5 /* search_remove.png */,
 				014F30951036B53800A6FDC5 /* search_add.png */,
 				01DFEC6A1018EDA700459C6B /* Pin.png */,
@@ -243,6 +246,7 @@
 				014F30961036B53800A6FDC5 /* search_add.png in Resources */,
 				014F30981036B55000A6FDC5 /* search_remove.png in Resources */,
 				017B37F4103F19A9003FA2FA /* SettingsTable.xib in Resources */,
+				01F10F96116A44EA000D025C /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
