@@ -3,7 +3,7 @@
 //  routeConcepts
 //
 //  Created by Fabian Girolstein on 24.07.09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009-2010 __MyCompanyName__. All rights reserved.
 //
 
 
