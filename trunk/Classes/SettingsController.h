@@ -17,7 +17,7 @@ extern NSString* const mapStyleChangedNotification;
 {
 	UINavigationBar* settingsNavigationBar;
 	UINavigationItem* settingsNavigationItem;
-	UITableView* tableView;
+	UITableView* aTableView;
 	UITableViewCell* cell;
 	NSString* selection;
 	NSMutableArray* myMapStyleName;
@@ -25,7 +25,7 @@ extern NSString* const mapStyleChangedNotification;
 }
 
 @property (nonatomic, retain) IBOutlet UINavigationItem* settingsNavigationItem;
-@property (nonatomic, retain) UITableView* tableView;
+@property (nonatomic, retain) UITableView* aTableView;
 @property (nonatomic, retain) UITableViewCell* cell;
 @property (nonatomic, retain) NSString* selection;
 

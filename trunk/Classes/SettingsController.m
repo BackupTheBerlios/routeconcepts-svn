@@ -20,7 +20,7 @@ NSString* const mapStyleChangedNotification = @"mapstyle";
 @implementation SettingsController
 
 @synthesize settingsNavigationItem;
-@synthesize tableView;
+@synthesize aTableView;
 @synthesize cell;
 @synthesize selection;
 
@@ -67,34 +67,34 @@ NSString* const mapStyleChangedNotification = @"mapstyle";
 }
 
 // Number of groups
-- (NSInteger) numberOfSectionsInTableView:(UITableView*)tableView 
+- (NSInteger) numberOfSectionsInTableView:(UITableView*)aTableView 
 {
 	return 1;
 }
 
 // Section Titles
-- (NSString*) tableView:(UITableView*)tableView titleForHeaderInSection:(NSInteger)section
+- (NSString*) tableView:(UITableView*)aTableView titleForHeaderInSection:(NSInteger)section
 {
 	return @"Map Styles";
 }
 
 // Number of rows per section
-- (NSInteger) tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section 
+- (NSInteger) tableView:(UITableView*)aTableView numberOfRowsInSection:(NSInteger)section 
 {
 	return [myMapStyleName count];
 }
 
 // Heights per row
-- (CGFloat) tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath
+- (CGFloat) tableView:(UITableView*)aTableView heightForRowAtIndexPath:(NSIndexPath*)indexPath
 {
 	return 44.0f;
 }
 
 // Produce cells
-- (UITableViewCell*) tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath
+- (UITableViewCell*) tableView:(UITableView*)aTableView cellForRowAtIndexPath:(NSIndexPath*)indexPath
 {	
 	// Create cells with accessory checking
-	cell = [self.tableView dequeueReusableCellWithIdentifier:@"checkCell"];
+	cell = [self.aTableView dequeueReusableCellWithIdentifier:@"checkCell"];
 	if (!cell) {
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:@"checkCell"] autorelease];
 		cell.accessoryType = UITableViewCellAccessoryNone;
@@ -107,18 +107,18 @@ NSString* const mapStyleChangedNotification = @"mapstyle";
 // utility functions
 - (void) deselect
 {	
-	[self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+	[self.aTableView deselectRowAtIndexPath:[self.aTableView indexPathForSelectedRow] animated:YES];
 }
 
 
 // Respond to user selection based on the cell type
-- (void) tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath*)newIndexPath
+- (void) tableView:(UITableView*)aTableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
-	cell = [tableView cellForRowAtIndexPath:newIndexPath];
+	cell = [aTableView cellForRowAtIndexPath:indexPath];
 	
 	if (cell.accessoryType == UITableViewCellAccessoryNone) {
 		cell.accessoryType = UITableViewCellAccessoryCheckmark;
-		selection = [[myMapStyleURL objectAtIndex:[newIndexPath row]] retain];
+		selection = [[myMapStyleURL objectAtIndex:[indexPath row]] retain];
 		//NSLog(@"Selected: %@",selection);
 		Utils* myUtils = [Utils sharedInstance];
 		[myUtils setNewTileserver:selection];
@@ -133,6 +133,8 @@ NSString* const mapStyleChangedNotification = @"mapstyle";
 	}
 	
 	[self performSelector:@selector(deselect) withObject:NULL afterDelay:0.5];
+
+	
 }
 
 - (void) destroy
